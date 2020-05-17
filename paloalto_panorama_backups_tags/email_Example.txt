@@ -1,0 +1,36 @@
+From: backupserver@email.nz <backupserver@email.nz> 
+
+Sent: Sunday, 17 May 2020 8:27 AM
+
+To: Jacinda Ardern <jacinda@primeminister.govt.nz>; Winston Peters <winnie@deputy.govt.nz>
+
+Subject: Palo Alto Configuration- 7 Security rules with 'audit' tag
+
+
+
+
+
+Panorama Backup Successfully Created: 484_17_05_2020_running-config.xml Filesize 450.734KB
+
+
+
+
+
+
+
+Device-Group Datacentre 'audit' tagged rules:
+
+1)  Rule Name: dc_minemeld_to_internet	(Description: Internet Outbound for Minemeld updates)
+
+2)  Rule Name: akl_aws_portal	(Description: AWS Portal Access)
+
+3)  Rule Name: wlg_azure_portal	(Description: Azure Cloud Portal Access)
+
+4)  Rule Name: dc_dmz_dun_jumphost	(Description: DMZ Access from  Dun Jumphost)
+
+5)  Rule Name: dc_wan_to_azure_domain_controllers	(Description: Corporate Network to Azure Domain Controllers )
+
+6)  Rule Name: dc_rdp_from_corp_wan_to_Azure	(Description: RDP from  Legacy Network to  Azure )
+
+7)  Rule Name: dc_gcp_to_F5_int_listner	(Description:GCP DCs to F5 GTMs)
+
