@@ -31,6 +31,6 @@
     - store file in local backup directory
     - parse running-config file to find security rules with specific tags
       to be used as reminder for auditing etc
-  - This is configured to send SMTP messages to an on-prem Exchange server after
-    editing receive connector to allow IP of server running python script 
+    - create a basic email listing security rules with specified tag and basic backup file details
+![email](/images/emailtags.png)  
 
