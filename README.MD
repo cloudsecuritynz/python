@@ -4,7 +4,7 @@
 ## This repository contains the following python scripts/projects:
 
 - **f5_backups:**
-  - Scripts, *NOT using the F5 Python SDK*, to:
+  - Scripts *(**NOT** using the F5 Python SDK)* to:
     - create and download a UCS archive
     - verify download integrity with checksums
     - delete UCS' older than X days
