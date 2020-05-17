@@ -1,15 +1,15 @@
 git @ cloudsecurity period nz
 
 
-#PYTHON SCRIPTS
+# PYTHON SCRIPTS
 
 
-##This repository contains the following python scripts/projects:
+## This repository contains the following python scripts/projects:
 
 - **f5_backups:**
- - Sample scripts, calling the F5Archive class, to create and download a UCS archive,
-   verify download integrity with checksum and delete UCS' older than X days.
-   The F5Archive class also has a method to download the F5 masterkey, which is useful if you have a standalone F5 unit.
+  - Sample scripts, calling the F5Archive class, to create and download a UCS archive,
+    verify download integrity with checksum and delete UCS' older than X days.
+    The F5Archive class also has a method to download the F5 masterkey, which is useful if you have a standalone F5 unit.
 
 
 
