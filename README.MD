@@ -30,7 +30,7 @@
   - This was written for F5 units running BIGIP version v13x-14.x. Should work in v11.
   - Uses requests package for calling iControl API
   - Example output below
-![vpnusers](/images/vpnusers.png)
+![vpnusers](/images/f5_daily_checks.PNG)
 
 
 - **f5_ssl_certs_expiry:**
@@ -65,5 +65,5 @@
   - This was written for PA/Panorma units running v9.x. A brief look tells me it should work for v8.x
   - Uses requests package for calling XML API and xmltodict to parse
   - Example output below
-![vpnusers](/images/vpnusers.png)
+![vpnusers](/images/paloalto_daily_checks.PNG)
 
