@@ -37,8 +37,8 @@
   - Scripts to periodically query F5 device looking for traffic (SSL/TLS) certs dure to expire within specified, eg 2 months, timeframe.
   - Note: F5 v11.x.x 'check-certs' utility doesnt work, hence netmiko used.
   - Tested against: v11.6.5, v14.1.2.3, v14.1.2.6
-  - Example output below
-#![vpnusers](/images/vpnusers.png)
+  - outputs simple string listing name of device with bullet pointed name and expiry date of certs due to expire listed underneath
+
 
 
 - **paloalto_minemeld_backups:**
