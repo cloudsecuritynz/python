@@ -20,6 +20,27 @@
   - Uses pysnmp package for SNMP polling and matplotlib for graph image creation
 ![vpnusers](/images/vpnusers.png)
 
+
+- **f5_daily_device_checks:**
+  - Scripts to periodically (daily) retrieve device stats using API and format into a string
+    usable (plain text) in the body of an email.
+  - Clients requested this to run daily at start of Business Hours to serve as additional Operation checks process.
+  - NOTE: this is not a replacement for realtime device monitoring, ie utilising a SOC, but as an additional 
+    operational check as part of a belt-and-braces monitoring strategy
+  - This was written for F5 units running BIGIP version v13x-14.x. Should work in v11.
+  - Uses requests package for calling iControl API
+  - Example output below
+![vpnusers](/images/vpnusers.png)
+
+
+- **f5_ssl_certs_expiry:**
+  - Scripts to periodically query F5 device looking for traffic (SSL/TLS) certs dure to expire within specified, eg 2 months, timeframe.
+  - Note: F5 v11.x.x 'check-certs' utility doesnt work, hence netmiko used.
+  - Tested against: v11.6.5, v14.1.2.3, v14.1.2.6
+  - Example output below
+![vpnusers](/images/vpnusers.png)
+
+
 - **paloalto_minemeld_backups:**
   - Script to create and download backups from Palo Alto Minemeld Servers 
     and store in specified local directory
@@ -33,4 +54,16 @@
       to be used as reminder for auditing etc
     - create a basic email listing security rules with specified tag and basic backup file details
 ![email](/images/emailtags.png)  
+
+
+- **paloalto_daily_device_checks:**
+  - Scripts to periodically (daily) retrieve device stats using XML API and format into a string
+    usable (plain text) in the body of an email.
+  - Clients requested this to run daily at start of Business Hours to serve as additional Operation checks process.
+  - NOTE: this is not a replacement for realtime device monitoring, ie utilising a SOC, but as an additional 
+    operational check as part of a belt-and-braces monitoring strategy
+  - This was written for PA/Panorma units running v9.x. A brief look tells me it should work for v8.x
+  - Uses requests package for calling XML API and xmltodict to parse
+  - Example output below
+![vpnusers](/images/vpnusers.png)
 
