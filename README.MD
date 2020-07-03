@@ -29,7 +29,7 @@
     operational check as part of a belt-and-braces monitoring strategy
   - This was written for F5 units running BIGIP version v13x-14.x. Should work in v11.
   - Uses requests package for calling iControl API
-  - Example output below
+  - Example output below                                                  
 ![vpnusers](/images/f5_daily_checks.PNG)
 
 
@@ -38,7 +38,7 @@
   - Note: F5 v11.x.x 'check-certs' utility doesnt work, hence netmiko used.
   - Tested against: v11.6.5, v14.1.2.3, v14.1.2.6
   - Example output below
-![vpnusers](/images/vpnusers.png)
+#![vpnusers](/images/vpnusers.png)
 
 
 - **paloalto_minemeld_backups:**
